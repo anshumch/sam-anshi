@@ -23,6 +23,7 @@ import json
 import boto3
 from datetime import date,datetime
 
+
 clientShd = boto3.client('health')
 
 def lambda_handler(event, context):
